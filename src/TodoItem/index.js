@@ -6,9 +6,9 @@ import './TodoItem.css';
 function TodoItem(props){
     return(
         <li  className="TodoItem">
-            <CompleteIcon
+            <CompleteIcon 
                 completed ={props.completed}
-                onComplete ={props.Oncomplete}
+                onComplete ={props.onComplete}
             />
             
             <p 
